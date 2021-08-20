@@ -4,10 +4,15 @@ import firebase from 'firebase';
 import './App.css';
 
 // Configure Firebase.
-const config = {
-  apiKey: 'AIzaSyAeue-AsYu76MMQlTOM-KlbYBlusW9c1FM',
-  authDomain: 'myproject-1234.firebaseapp.com',
-  // ...
+
+
+var config = {
+  apiKey: "AIzaSyBWO_j2Yd06A3yAuyAB4NsTYyQX7SzpnJI",
+  authDomain: "responsive-cv-a9788.firebaseapp.com",
+  projectId: "responsive-cv-a9788",
+  storageBucket: "responsive-cv-a9788.appspot.com",
+  messagingSenderId: "898270355549",
+  appId: "1:898270355549:web:2ba1523d99d9995bbaadb4"
 };
 firebase.initializeApp(config);
 
